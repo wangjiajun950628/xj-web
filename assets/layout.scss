@@ -1,0 +1,143 @@
+.xj-main {
+  padding: 10px;
+}
+// 移动端
+@media screen and (max-width: 768px) {
+  // 移动端导航盒子
+  .xj-mobile-nav-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    // logo
+    .xj-mobile-logo {
+      width: 120px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+    }
+    // 导航按钮
+    .xj-mobile-drawer {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: right;
+    }
+  }
+
+  // 移动端抽屉导航
+  .xj-mobile-nav {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    flex-flow: column;
+    background-color: #ffffff;
+    // 移动导航盒子
+    .xj-mobile-ul {
+      list-style: none;
+      display: flex;
+      flex-flow: column;
+      padding: 0;
+
+      .xj-mobile-li {
+        padding: 10px;
+        text-align: right;
+        a {
+          color: #000;
+          text-decoration: none;
+        }
+      }
+      .xj-mobile-li:first-child {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+      .xj-mobile-li:last-child {
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+
+      // 导航选中样式
+      .xj-nav-activity {
+        // 待修复背景颜色不显示
+        background-color: rgba(0,0,0, .1);
+        a {
+          color: #29B6F6;
+        }
+      }
+    }
+  }
+}
+
+// PC端
+@media screen and (min-width: 769px) {
+  // pc端盒子
+  .xj-pc-nav-box {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    z-index: 1;
+    // pc端logo
+    .xj-pc-logo {
+      width: 120px;
+      height: 50px;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+    }
+    // 导航
+    .xj-pc-nav-right {
+      width: 100%;
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      // 导航盒子
+      .xj-pc-ul {
+        list-style: none;
+        display: flex;
+        flex-flow: row;
+
+        .xj-pc-li {
+          overflow: hidden;
+          a {
+            padding: 10px 20px;
+            display: flex;
+            flex-grow: 1;
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+        .xj-pc-li:first-child {
+          border-top-left-radius: 5px;
+          border-bottom-left-radius: 5px;
+        }
+        .xj-pc-li:last-child {
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px;
+        }
+        // 导航选中样式
+        .xj-nav-activity {
+          a {
+            color: #29B6F6;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// hover动画库自定义样式
+.hvr-underline-from-center:before {
+  background-color: #47494E;
+}
+.hvr-rectangle-in {
+  background-color: rgba(0,0,0, .1);
+}
+.hvr-rectangle-in:before {
+  background-color: #fff;
+}
+
