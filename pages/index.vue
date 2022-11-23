@@ -1,5 +1,13 @@
+<style scoped lang="scss">
+  @import "assets/index/index";
+</style>
 <template>
-  <div>首页</div>
+  <div class="xj-index">
+    <v-btn
+      class="v-btn"
+      elevation="2"
+    >首页</v-btn>
+  </div>
 </template>
 
 <script>
@@ -8,5 +16,9 @@ export default {
   head: {
     title: '首页'
   },
+  mounted() {
+  },
+  methods: {
+  }
 }
 </script>
