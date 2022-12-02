@@ -1,3 +1,13 @@
+#app {
+  background-color: #F5F5F5;
+  // 哀悼效果样式
+  //-o-filter: grayscale(100%);
+  //-moz-filter: grayscale(100%);
+  //-ms-filter: grayscale(100%);
+  //-webkit-filter: grayscale(100%);
+  //filter: grayscale(100%);
+  //filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+}
 .xj-main {
   padding: 10px;
   position: relative;

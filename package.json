@@ -21,7 +21,7 @@
     "vuetify": "^2.6.10",
     "hover.css": "^2.3.2",
     "particlesjs": "^2.2.3",
-    "particles.js": "^2.0.0"
+    "animejs": "^3.2.1"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.12.3",

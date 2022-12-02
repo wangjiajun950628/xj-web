@@ -1,5 +1,5 @@
 <template>
-  <v-app style="background-color: #F5F5F5;">
+  <v-app id="app">
     <!--  头部  -->
     <v-app-bar class="xj-app" fixed app color="#212121" height="55">
       <canvas slot="img" id="canvas"></canvas>
@@ -31,7 +31,6 @@
     <v-main>
       <div class="xj-main">
         <Nuxt/>
-
       </div>
     </v-main>
     <!--  页脚  -->
