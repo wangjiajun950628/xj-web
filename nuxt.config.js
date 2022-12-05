@@ -13,9 +13,9 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
-      { name: 'author', content: '小俊' },
-      { name: 'keywords', content: '全栈小俊，小俊，XJ，QZ，博客，xj，qz' },
-      { hid: 'description', name: 'description', content: '全栈小俊是小俊开发者记录生活点点滴滴所开发的，使用nuxt.js开发的'  }
+      { hid: 'author', name: 'author', content: '小俊' },
+      { hid: 'keywords', name: 'keywords', content: '全栈小俊，小俊，XJ，QZ，博客，xj，qz' },
+      { hid: 'description', name: 'description', content: '全栈小俊是小俊开发者记录生活点点滴滴所开发的，使用nuxt.js开发的' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
